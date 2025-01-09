@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+
+}
+
+.bg-purple {
+    background-color: #8e00a3;
+}
+
+.headerWrapper .top-strip {
+    padding: 8px;
+    padding-left: 600px;
+    font-size: large;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.headerWrapper .header {
+    width: 100px;
+    height: auto;
+    padding: 15px 60px;
+}
+
+.logoWrapper img {
+    width: 100px;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+
+.headerWrapper .header .part2 .countryDrop {
+    width: 150px;
+    height: 60px;
+    min-width: 150px;
+    text-align: left;
+    justify-content: flex-start !important;
+    border: 3px solid rgba(3, 0, 0, 0.2);
+    border-radius: 7px;
+    line-height: 16px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.headerWrapper .header .part2 .countryDrop:hover {
+    background-color: red;
+}
+
+
+.headerWrapper .header .part2 .countryDrop .label {
+    font-size: 12px !important;
+    text-transform: capitalize !important;
+    color: black !important;
+}
+
+.headerWrapper .header .part2 .countryDrop .name {
+    font-size: 14px !important;
+    text-transform: capitalize !important;
+    color: black !important;
+    font-weight: 700;
+}
+
+.arrow-icon {
+    padding-left: 30px;
+}
+
+.headerSearch {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+
+
+}
+
+.headerSearch input {
+    outline: none !important;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+    width: 700px;
+    border: 0px !important;
+    height: 40px;
+    padding: 0px 25px !important;
+    position: relative;
+    margin-left: 70px;
+    background-color: rgb(233, 232, 232);
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.insidesearchicon {
+    position: relative;
+
+}
+
+.headerSearch Button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    z-index: 1;
+    min-width: 60px;
+    height: 40px;
+    font-size: 30px;
+}
+
+.part3 {
+    display: flex;
+    margin-left: 20px;
+    min-width: 50px;
+    height: 50px;
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+}
+
+.part3 .circle {
+    font-size: 25px;
+    padding-right: 20px;
+
+}
+
+.letter {
+    margin-top: 15px;
+    font-weight: bold;
+
+}
+
+.carTab {
+    color: #ea2b0f !important;
+    border-radius: 50px;
+
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.carTab svg {
+    background: #fff1ee;
+}
+
+.icon-display {
+    display: flex;
+    align-items: center;
+
+}
